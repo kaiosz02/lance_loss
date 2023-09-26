@@ -1,0 +1,164 @@
+.container{
+    width: 900px;
+    height: 1000px;
+    margin: auto;
+    font-family: arial, sans-serif;
+    margin-top: 35px;
+}
+.header{
+    display: flex;
+    width: 800px;
+    height: 60px;
+    background-color: papayawhip;
+    margin: auto;
+    align-items: center;/*được sử dụng để căn giữa theo chiều dọc.*/
+    
+}
+.header_logo{
+    display: flex;/*được sử dụng để thiết lập thẻ cha là container dạng flexible box.*/
+    justify-content: center;/*được sử dụng để căn giữa theo chiều ngang.*/
+    align-items: center;/*được sử dụng để căn giữa theo chiều dọc.*/
+    border: 2px solid rgb(134, 132, 132);
+    width: 64px;
+    height: 35px;
+    margin-left: 15px;
+    font-size: larger;
+    font-weight: 500;
+}
+.header_menu{
+    margin-left: 48%;
+    
+}
+.header_menu li{
+    display: inline-block;
+    padding: 0 10px;
+    font-size: larger;
+    
+}
+.header_menu li a{
+    color: black;
+}
+.banner{
+    background-color: rgb(213, 244, 247);
+    margin: auto;
+    height: 250px;
+    width: 782px;
+    margin-top: 15px;
+    padding: 10px 10px;
+}
+.banner_img{
+   text-align: center;
+   border: 2px solid rgb(134, 132, 132);
+   width: 765px;
+   height: 230px;
+   margin: auto;
+   margin-top: 5px;
+}
+.banner_img p{
+    font-size: larger;
+    padding: 100px 100px;
+    font-weight: 700;
+}
+.banner_sidebar{
+    display: flex;
+    margin: auto;
+    height: 250px;
+    width: 800px;
+    margin-top: 15px;
+}
+.para{
+    font-size: larger;
+    font-weight: 700;
+}
+.sidebar_left{
+    width: 60%;
+    height: 300px;
+ 
+}
+.sidebar_left_header{
+    background-color: rgb(213, 244, 247);
+    padding: 5px 20px;
+}
+.sidebar_left_body{
+    background-color: rgb(213, 244, 247);
+    padding: 5px 20px;
+    margin-top: 5px;
+}
+.sidebar_left_footer{
+    background-color: rgb(213, 244, 247);
+    padding: 5px 20px;
+    margin-top: 5px;
+}
+.sidebar_right{
+    width: 40%;
+    height: 200px;
+    padding: 10px 15px;
+    margin-left: 5px;
+    background-color: rgb(213, 244, 247);
+    padding: 0 50px;
+    color: black ;
+}
+.dot {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+    vertical-align: middle;
+  }
+.sidebar_right a{
+    color: black;
+}
+.footer{
+    display: flex;
+    width: 800px;
+    height: 60px;
+    background-color: papayawhip;
+    margin: auto;
+    margin-top: 180px;
+}
+.footer_logo{
+    display: flex;/*được sử dụng để thiết lập thẻ cha là container dạng flexible box.*/
+    justify-content: center;/*được sử dụng để căn giữa theo chiều ngang.*/
+    align-items: center;/*được sử dụng để căn giữa theo chiều dọc.*/
+    border: 2px solid rgb(134, 132, 132);
+    width: 58px;
+    height: 35px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.footerr_folow{
+    margin-left: 20px;
+    margin-top: 22px;
+}
+.dottt{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+    vertical-align: middle;
+    margin-top: 16px;
+    margin-left: 20px;
+
+}
+.dott{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+    vertical-align: middle;
+    margin-top: 16px;
+    margin-left: 5px;
+}
+.footer_menu{
+    margin-left: 30%;
+}
+.footer_menu li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.footer_menu a{
+    color: black;
+}
